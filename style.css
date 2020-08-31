@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Lobster&display=swap');
+@font-face {
+    font-family: simplifica;
+    src: url(images/Simplifica.ttf);
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.menu ul {
+    display: inline-flex;
+    margin: 50px;
+}
+
+.menu ul li {
+    list-style: none;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+.menu ul li a {
+    color: #a49fa8;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: hotpink;
+}
+
+.logo a img {
+    width: 250px;
+    margin-top: -20px;
+    margin-right: -10px;
+}
+
+.signup-btn {
+    top: 50px;
+    right: 80px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.price h2 {
+    font-family: sans-serif;
+    color: red;
+    position: absolute;
+    left: 832px;
+    top: 60%;
+}
+
+.description {
+    width: 50%;
+    top: 23%;
+    right: 20px;
+    position: absolute;
+    color: #a49fa8;
+    font-family: sans-serif;
+}
+
+.pstitle h1 {
+    font-family: simplifica;
+    position: absolute;
+    left: 400px;
+    top: 60%;
+    color: #a49fa8;
+}
+
+.psconsole img {
+    display: flex;
+    position: absolute;
+    width: 500px;
+    left: 290px;
+}
+
+.form {
+    position: absolute;
+    top: 550px;
+    left: 820px;
+    font-family: sans-serif;
+    color: #a49fa8;
+    font-weight: bold;
+}
+
+.form select {
+    background-color: transparent;
+    border: 1px solid gray;
+    color: gray;
+    padding: 15px 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 1px;
+}
+
+.form button {
+    background-color: tomato;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 1px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 20px;
+    left: 45%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+
+/*  color: white;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#42455a, #42455a), radial-gradient(circle at top left, #fd00da, #19d7f8);
+    background-origin: border-box;
+    background-clip: content-box, border-box; */
+
+
+/* #banner { 
+    background-color: rgb(9, 175, 222);
+    padding: 10px;
+    border: 2px aqua solid;
+}
+
+.menubuttons {
+    text-align: center;
+}
+
+.menu {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: rgb(150, 147, 138);
+    padding: 10px;
+}
+
+#consolename {
+    font-family: simplifica;
+    font-weight: bolder;
+}
+
+.price {
+    color: red;
+}
+
+p {
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+.body {
+    background-color: rgb(211, 211, 212);
+}
+
+article {
+    display: flex;
+    align-items: flex-end;
+    background-color: lightcoral;
+}
+
+}
+
+form {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.designer {
+    color: rgb(22, 100, 8);
+    font-family: 'Comfortaa', 'Lobster', cursive;
+}*/
